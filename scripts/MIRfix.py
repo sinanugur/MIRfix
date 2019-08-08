@@ -25,6 +25,7 @@ import multiprocessing, logging
 import traceback as tb
 from distutils.spawn import find_executable
 import RNA
+import importlib
 
 def getindex(sequence,specie,precID,precdesc,listnogenomes,listnotingenome,templong):#get the index of the original sequence in its genome
     try:
